@@ -1,0 +1,5 @@
+galaxy_info:
+  author: Marat Khustnetdinov
+  description: provision ruby
+  license: MIT
+  min_ansible_version: 1.8
