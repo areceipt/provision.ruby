@@ -50,5 +50,5 @@
   shell: RBENV_ROOT={{ rbenv_root }} rbenv exec gem install bundler 
 
 - name: rbenv | chown rbenv root path
-  shell: "sudo chown -R {{ user }} /usr/local/rbenv"
+  shell: "sudo chown -R {{ rbenv_user }} /usr/local/rbenv"
 
