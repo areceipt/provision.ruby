@@ -1,5 +1,20 @@
 galaxy_info:
   author: Marat Khustnetdinov
-  description: provision ruby
+  description: Ansible role witch installs rbenv and ruby to user 
+  galaxy_tags:
+    - system
+    - ruby
+    - rbenv
+  - production
+    platforms:
+      - name: Ubuntu
+        versions:
+          - all
+  categories:
+    - system
+    - ruby
+    - rbenv
   license: MIT
   min_ansible_version: 1.8
+
+dependencies: []
